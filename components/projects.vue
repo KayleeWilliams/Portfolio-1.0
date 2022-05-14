@@ -17,7 +17,7 @@
         pTitle="Portfolio Websote"
         pDescription="A website to display projects I work on."
         pLanguages="Vue.js, Nuxt.js & Tailwind CSS"
-        pGitHub="https://github.com/KayleeWilliams"
+        pGitHub="https://github.com/KayleeWilliams/portfolio"
         pInternal=""
         pExternal=""
       />
