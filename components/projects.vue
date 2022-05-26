@@ -7,7 +7,7 @@
         pTitle="League Player Tracker"
         pDescription="A Discord bot designed to track multiple players to help improve efficency within teams."
         pLanguages="Python, Discord, RiotAPI & MongoDB"
-        pGitHub=""
+        pGitHub="https://github.com/KayleeWilliams/League-Player-Tracker-1.0"
         pInternal=""
         pExternal=""
       />
@@ -17,20 +17,20 @@
         pTitle="Portfolio Websote"
         pDescription="A website to display projects I work on."
         pLanguages="Vue.js, Nuxt.js & Tailwind CSS"
-        pGitHub="https://github.com/KayleeWilliams/portfolio"
+        pGitHub="https://github.com/KayleeWilliams/Portfolio-1.0"
         pInternal=""
         pExternal=""
       />
 
-      <!-- <project
-        pDate="15/05/2022"
-        pTitle="Portfolio Websote"
-        pDescription="A website to display projects I work on."
-        pLanguages="Vue.js, Nuxt.js & Tailwind CSS"
-        pGitHub="https://github.com/KayleeWilliams"
+      <project
+        pDate="26/05/2022"
+        pTitle="YouTube Wrapped"
+        pDescription="Utilising data from Google Takeout and the YouTube API to generate a yearly recap for the user."
+        pLanguages="Vue.js, Nuxt.js & Tailwind CSS, YouTube API, Python"
+        pGitHub="https://github.com/KayleeWilliams/YouTube-Wrapped"
         pInternal=""
         pExternal=""
-      /> -->
+      />
 
       <!-- v-show="show" : for projects after this point -->
       
@@ -46,8 +46,8 @@
       /> -->
     </div>
 
-    <btnTemplate bType="Show" v-show="show == false" bText="Show More" bUrl="#" @buttonClick="showMore" />
-    <btnTemplate bType="Show" v-show="show" bText="Show Less" bUrl="#" @buttonClick="showMore" />
+    <!-- <btnTemplate bType="Show" v-show="show == false" bText="Show More" bUrl="#" @buttonClick="showMore" />
+    <btnTemplate bType="Show" v-show="show" bText="Show Less" bUrl="#" @buttonClick="showMore" /> -->
 
   </div>
 </template>
